@@ -8,7 +8,7 @@ In the Content-based file I make use of a fixed TF-IDF representation of each an
 **OUTPUT**: Given an anime j, this algorithm recommends the top k most similar animes to it. This algorithms DOES NOT MAKE USE of USER DATA.
 
 ## Collaborative-Filtering Rec-Sys
-In the Matrix Factorization content-based algorithm I make use of a NN where I learn the embeddings for each item_ID and user_ID. In this case I'm making use of BOTH USER AND ITEM DATA.
+In the Matrix Factorization collaborative-filtering algorithm I make use of a NN where I learn the embeddings for each item_ID and user_ID. In this case I'm making use of BOTH USER, ITEM DATA and SCORES given by the user to the item.
 **OUTPUT**: Given a user j, this algorithms recommends the top k best items for that user.
 
 ## Knowledge-Based RecSys
